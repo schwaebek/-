@@ -12,6 +12,9 @@
 		27599E2C19BF3C3F005A9EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27599E2A19BF3C3F005A9EB6 /* Main.storyboard */; };
 		27599E2E19BF3C3F005A9EB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27599E2D19BF3C3F005A9EB6 /* Images.xcassets */; };
 		27599E3A19BF3C3F005A9EB6 /* ______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27599E3919BF3C3F005A9EB6 /* ______Tests.swift */; };
+		27599E4419BF3CEC005A9EB6 /* 😼TableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27599E4319BF3CEC005A9EB6 /* 😼TableTableViewController.swift */; };
+		27A113B119BF59A4008C723E /* 🐠TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A113B019BF59A4008C723E /* 🐠TableViewController.swift */; };
+		27A113B319BF60B1008C723E /* 🍺Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A113B219BF60B1008C723E /* 🍺Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 		27599E3319BF3C3F005A9EB6 /* 🙈🙉🙊Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "🙈🙉🙊Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27599E3819BF3C3F005A9EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27599E3919BF3C3F005A9EB6 /* ______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "______Tests.swift"; sourceTree = "<group>"; };
+		27599E4319BF3CEC005A9EB6 /* 😼TableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "😼TableTableViewController.swift"; sourceTree = "<group>"; };
+		27A113B019BF59A4008C723E /* 🐠TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "🐠TableViewController.swift"; sourceTree = "<group>"; };
+		27A113B219BF60B1008C723E /* 🍺Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "🍺Button.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 			children = (
 				27599E2619BF3C3F005A9EB6 /* AppDelegate.swift */,
 				27599E2819BF3C3F005A9EB6 /* ViewController.swift */,
+				27599E4319BF3CEC005A9EB6 /* 😼TableTableViewController.swift */,
+				27A113B019BF59A4008C723E /* 🐠TableViewController.swift */,
+				27A113B219BF60B1008C723E /* 🍺Button.swift */,
 				27599E2A19BF3C3F005A9EB6 /* Main.storyboard */,
 				27599E2D19BF3C3F005A9EB6 /* Images.xcassets */,
 				27599E2419BF3C3F005A9EB6 /* Supporting Files */,
@@ -158,6 +167,7 @@
 				TargetAttributes = {
 					27599E2019BF3C3F005A9EB6 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = WW3AF2LH6C;
 					};
 					27599E3219BF3C3F005A9EB6 = {
 						CreatedOnToolsVersion = 6.0;
@@ -209,7 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				27599E2919BF3C3F005A9EB6 /* ViewController.swift in Sources */,
+				27A113B319BF60B1008C723E /* 🍺Button.swift in Sources */,
 				27599E2719BF3C3F005A9EB6 /* AppDelegate.swift in Sources */,
+				27A113B119BF59A4008C723E /* 🐠TableViewController.swift in Sources */,
+				27599E4419BF3CEC005A9EB6 /* 😼TableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +340,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "🙈🙉🙊/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -338,9 +354,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "🙈🙉🙊/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -397,6 +416,7 @@
 				27599E3F19BF3C3F005A9EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27599E4019BF3C3F005A9EB6 /* Build configuration list for PBXNativeTarget "🙈🙉🙊Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +425,7 @@
 				27599E4219BF3C3F005A9EB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
